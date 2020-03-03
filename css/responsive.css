@@ -1,0 +1,103 @@
+@media only screen and (max-width: 992px) {
+  .charts-bg {
+    width: 100%;
+    float: none;
+  }
+  .down-percentage {
+    float: none;
+    margin: 20px;
+    width: 90%;
+    margin-top: 40px;
+  }
+  .down-percentage span {
+    display: block;
+  }
+  .down-percentage:after {
+    content: " ";
+    position: absolute;
+    background: url(../img/top-arrow.jpg) no-repeat;
+    width: 69px;
+    height: 18px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -17px;
+  }
+  .single-chart {
+    width: 49%;
+  }
+  .vs {
+    left: 46%;
+  }
+  .white-base {
+    background-color: transparent;
+  }
+  .tiles {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .d-flex {
+    display: block !important;
+    text-align: center;
+  }
+  header .bd-highlight a {
+    margin: 0 10px;
+  }
+  .bg-light {
+    background-color: #00bc92 !important;
+  }
+  .slider-content {
+    max-width: none;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 230px;
+  }
+  .carousel {
+    height: 300px;
+  }
+  .carousel img {
+    height: 300px;
+  }
+  .skip-button {
+    display: none;
+  }
+  .white-base {
+    padding-top: 200px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .vs {
+    left: 43%;
+  }
+  .tiles {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .tiles h3, .tiles:last-child h3 {
+    border-radius: 5px 5px 0 0;
+  }
+  .tiles {
+    border-radius: 5px;
+  }
+  .contact-left, .contact-right {
+    width: 100%;
+    float: none;
+  }
+  .footer-content-left, .footer-content-right {
+    float: none;
+    width: 100%;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    margin-right: 0;
+  }
+  .web-info {
+    transform: translate(40%, 0%);
+  }
+}
